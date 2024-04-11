@@ -23,6 +23,7 @@ def countinuous_deployment_pipeline(
     workers: int= 1,
     # if program is in loop then how much time it should stop the run --> DEFAULT_SERVICE_START_STOP_TIMEOUT
     timeout: int= DEFAULT_SERVICE_START_STOP_TIMEOUT 
-)
+):
+    df= data_injestion()
 
                                  
